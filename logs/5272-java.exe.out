@@ -1,0 +1,81 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 776milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 776"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 58975"}
+{"logLevel":"info","message":"Listening on port:58975"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickByText' and 'StepImplementation.clickByText'"}
+{"logLevel":"debug","message":"Found click the element with the text of {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitForGivenSeconds' and 'StepImplementation.waitForGivenSeconds'"}
+{"logLevel":"debug","message":"Found {} seconds waited in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickByPartialText' and 'StepImplementation.clickByPartialText'"}
+{"logLevel":"debug","message":"Found click the element with the partial text in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.sendKeysById' and 'StepImplementation.sendKeysById'"}
+{"logLevel":"debug","message":"Found send {} to the {} element in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickByAccessibilityId' and 'StepImplementation.clickByAccessibilityId'"}
+{"logLevel":"debug","message":"Found click the element with the accessibilityId of {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.readTextValue' and 'StepImplementation.readTextValue'"}
+{"logLevel":"debug","message":"Found read text value of the element with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickByXPath' and 'StepImplementation.clickByXPath'"}
+{"logLevel":"debug","message":"Found click the element with the xpath of {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.loginControl' and 'StepImplementation.loginControl'"}
+{"logLevel":"debug","message":"Found check {} value of the element with the id of {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkIfExists' and 'StepImplementation.checkIfExists'"}
+{"logLevel":"debug","message":"Found check if an element with the id of {} is displayed on screen in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickById' and 'StepImplementation.clickById'"}
+{"logLevel":"debug","message":"Found click the element with the id of {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tcheck if an element with the id of {} is displayed on screen : public void checkIfExists(String id) throws InterruptedException"}
+{"logLevel":"debug","message":"\tclick the element with the text of {} : public void clickByText(String text) throws InterruptedException"}
+{"logLevel":"debug","message":"\tread text value of the element with {} : public void readTextValue(String id) throws InterruptedException"}
+{"logLevel":"debug","message":"\tclick the element with the id of {} : public void clickById(String id) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} seconds waited : public void waitForGivenSeconds(ınt x) throws InterruptedException"}
+{"logLevel":"debug","message":"\tclick the element with the partial text : public void clickByPartialText() throws InterruptedException"}
+{"logLevel":"debug","message":"\tclick the element with the xpath of {} : public void clickByXPath(String xpath) throws InterruptedException"}
+{"logLevel":"debug","message":"\tcheck {} value of the element with the id of {} : public void loginControl(String text, String id) throws InterruptedException"}
+{"logLevel":"debug","message":"\tclick the element with the accessibilityId of {} : public void clickByAccessibilityId(String accessibilityId) throws InterruptedException"}
+{"logLevel":"debug","message":"\tsend {} to the {} element : public void sendKeysById(String key, String id) throws InterruptedException"}
+!!!!!!!!!!!!!!!!!!!!!!!!!!!Test starts here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Tem 01, 2021 9:49:01 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'click the element with the id of {}' using 'class StepImplementation.clickById"}
+Element is clicked.
+{"logLevel":"debug","message":"Executing 'click the element with the id of {}' using 'class StepImplementation.clickById"}
+Element is clicked.
+{"logLevel":"debug","message":"Executing 'click the element with the id of {}' using 'class StepImplementation.clickById"}
+Element is clicked.
+{"logLevel":"debug","message":"Executing 'send {} to the {} element' using 'class StepImplementation.sendKeysById"}
+key has been sent to the element
+{"logLevel":"debug","message":"Executing 'click the element with the text of {}' using 'class StepImplementation.clickByText"}
+Element is clicked.
+{"logLevel":"debug","message":"Executing 'click the element with the id of {}' using 'class StepImplementation.clickById"}
+Element is clicked.
+{"logLevel":"debug","message":"Executing 'send {} to the {} element' using 'class StepImplementation.sendKeysById"}
+key has been sent to the element
+{"logLevel":"debug","message":"Executing 'click the element with the text of {}' using 'class StepImplementation.clickByText"}
+Element is clicked.
+{"logLevel":"debug","message":"Executing 'click the element with the id of {}' using 'class StepImplementation.clickById"}
+Element is clicked.
+{"logLevel":"debug","message":"Executing 'read text value of the element with {}' using 'class StepImplementation.readTextValue"}
+Element has been read.
+Element is clicked.
+{"logLevel":"debug","message":"Executing 'click the element with the id of {}' using 'class StepImplementation.clickById"}
+Element is clicked.
+{"logLevel":"debug","message":"Executing 'click the element with the text of {}' using 'class StepImplementation.clickByText"}
+Element is clicked.
+{"logLevel":"debug","message":"Executing 'click the element with the id of {}' using 'class StepImplementation.clickById"}
+Element is clicked.
+{"logLevel":"debug","message":"Executing 'check if an element with the id of {} is displayed on screen' using 'class StepImplementation.checkIfExists"}
+Element is displayed.
+{"logLevel":"debug","message":"Executing 'click the element with the partial text' using 'class StepImplementation.clickByPartialText"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

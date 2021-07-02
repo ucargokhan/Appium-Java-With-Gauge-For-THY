@@ -1,0 +1,58 @@
+Created by Gokhan Ucar on 1.07.2021
+
+This is a concept file with following syntax for each concept.
+
+Add the concept below to close cookie pop-up if it is your first time using THY Mobile Application
+"# Close Cookie Pop-up Button
+"* click the element with the id of "com.turkishairlines.mobile:id/frPrivacy_btnAccept"
+
+# Click Book a Flight Button
+* click the element with the id of "com.turkishairlines.mobile:id/acMain_btnBooking"
+
+# Click One Way Button
+* click the element with the id of "com.turkishairlines.mobile:id/frDashboard_tvOneWay"
+
+# Click Departure Airport Button
+* click the element with the id of "com.turkishairlines.mobile:id/frDashboard_llFrom"
+
+# Type <departure_airport> to departure airport search field
+* send <departure_airport> to the "com.turkishairlines.mobile:id/frAirportSelection_etSearch" element
+
+# Click Sabiha Gokcen Airport
+* click the element with the text of "SAW - Sabiha Gokcen Airport"
+
+# Click Arrival Airport Button
+* click the element with the id of "com.turkishairlines.mobile:id/frDashboard_tvToCode"
+
+# Type <arrival_airport> to arrival airport search field
+* send <arrival_airport> to the "com.turkishairlines.mobile:id/frAirportSelection_etSearch" element
+
+# Click Esenboga Airport
+* click the element with the text of "ESB - Ankara Esenboga Airport"
+
+# Click Departure Date Field
+* click the element with the id of "com.turkishairlines.mobile:id/frDashboard_rlDeparture"
+
+# Check Current Day of Month and choose two days later
+* read text value of the element with "com.turkishairlines.mobile:id/dateWidget_tvDateDay"
+
+# Click Done Button for Choosing Date
+* click the element with the id of "com.turkishairlines.mobile:id/frDashboard_btnDone"
+
+# Select 2 Adult Seats
+* click the element with the text of "3"
+
+# Click Search Flight Button
+* click the element with the id of "com.turkishairlines.mobile:id/frDashboard_btnSearch"
+
+# Check If Flights Are Available
+* check if an element with the id of "com.turkishairlines.mobile:id/frFlightSearch_tvSortAndFilter" is displayed on screen
+
+# Click Flight Info
+* click the element with the xpath of "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView[2]/android.view.ViewGroup[1]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]"
+
+# Choose Economic Class
+* click the element with the xpath of "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView[2]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.FrameLayout/android.view.ViewGroup"
+
+# Click Continue Button
+* click the element with the id of "com.turkishairlines.mobile:id/frFlightSearch_btnContinue"
